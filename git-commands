@@ -1,0 +1,40 @@
+GIT COMMANDS
+
+git init - start git on folder
+
+git init --bare - With the git init --bare command, you are creating a repository that is pushable. Generally, bare repositories are created on the server and are considered repositories for storage, in contrast to the repositories that go on developer machines, which would be development repositories, created with the git init command (without the --bare).
+
+git status - check files status tracked by git
+
+git add filename - to be tracked by git
+git add . -  to track all the folder content
+
+git commit -m “message” - a commit captures changes and makes them permanent
+
+git config --local user.name “Davi”                        --local for local repository
+git config --global user.email “davi@martins”              --global for all repositories
+
+git log - show all commits made 
+git log -p - most complete way to see commits
+
+.gitignore - If u create a .gitignore in ur repository and insert a file name inside this file, like “ide-config”, or “index.html”,
+git won’t track this files
+
+git remote - shows all remote repositories that git is tracking
+git remote add repositoryname ~/Desktop/folderexample - add a repository to be tracked
+git remote add repositoryname URL - same as before
+git remote -v - shows repository path
+git remote rename oldname new name - rename repository
+
+git clone ~/Desktop/folderexample - creates a repository with all the contents of the given path
+git clone URL - creates a repository with all the contents of the given path
+
+git push repositoryname branchname - push changes into repository
+git pull repositoryname branchname - pull changes into repository
+Common example:
+git push origin master
+git pull origin master
+
+
+
+
