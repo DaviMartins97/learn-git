@@ -34,7 +34,3 @@ git pull repositoryname branchname - pull changes into repository
 Common example:
 git push origin master
 git pull origin master
-
-
-
-
